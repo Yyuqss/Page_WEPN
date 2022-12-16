@@ -1,0 +1,12 @@
+@media screen and (min-width:1000px) {
+    .accueil {
+        display: block;
+        margin-left: -150px;
+    }
+
+    .asso {
+        display: block;
+        width: 180px;
+        margin-left: -30px;
+    }
+}

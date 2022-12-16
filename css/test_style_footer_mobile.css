@@ -1,0 +1,51 @@
+@media screen and (max-width:800px) {
+    #bloc_page
+    {
+        position: relative;
+    }
+}
+
+#bloc_contact
+{
+    margin: 0%; 
+    display: flex; 
+    flex-direction: column; 
+    width: 500px;
+}
+
+@media screen and (max-width:800px) {
+    #conteneur_mobile
+    {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #adresse_footer
+    {
+        text-align: center;
+    }
+    #bloc_contact
+    {
+        width: 400px;
+    }
+}
+
+
+.affichage_mobile
+{
+    margin-top: 200px;
+    z-index: 2;
+}
+
+@media screen and (max-width:800px) {
+
+    .affichage_mobile
+    {
+        margin-top: 250px;
+    }
+    
+    .paragraphe_mobile
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,84 @@
+/* Pistus*/
+.conteneur_photo
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 160%;
+    margin-left: -30%;
+    
+}
+
+.photo
+{
+    width: 500px;
+}
+
+.photo_seul
+{
+    width: 750px;
+}
+
+.photo_asso
+{
+    width: 450px;
+}
+
+@media screen and (max-width:800px) {
+    .conteneur_photo
+    {
+        width: 100%;
+        margin-left: 0%;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+    }
+
+    .photo 
+    {
+        width: 340px;
+    }
+
+    .photo_seul
+    {
+        width: 340px;
+    }
+
+    .photo_asso
+    {
+        width: 340px;
+    }
+
+    .paragraphe_teaser_page_appart
+    {
+        padding-top: 30%;
+    }
+}
+    
+/* Wepn*/
+.conteneur_wepn
+{
+    width: 180%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:800px) {
+    .conteneur_wepn
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 15%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .offset-1{
+        margin-left: 0px;
+    }
+}
