@@ -172,7 +172,7 @@ img::-moz-selection {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    background-image: url("../img/Nuit\(big\).jpg");
+    background-image: url("../img/Nuit\(big\).png");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,7 +258,9 @@ img::-moz-selection {
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 0;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 5%;
 }
 
 .btn-primary {
@@ -390,8 +392,8 @@ img::-moz-selection {
 .video_content video {
     margin-bottom: 35px;
     box-shadow: -4px 4px 10px black;
-    height: 80vh;
-    width: auto;
+    height: auto;
+    width: 90%;
 }
 
 
